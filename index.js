@@ -17,21 +17,7 @@ navLinks.forEach(link => {
   });
 });
 
-// const check =document.querySelector('.hall');
-// check.addEventListener('click',(e) =>
-// {
-//   if ((e.target.classList.contains('cabinR1') || e.target.classList.contains('cabinR2') ))
-//   {
-//     e.target.classList.toggle('selected');
-//   }
-// });
 
-
-// function selectCabin(cabinNumber, cabinType) {
-//   localStorage.setItem('selectedCabin', cabinNumber);
-//   localStorage.setItem('cabinType', cabinType);
-//   window.location.href = 'payment.html'; // your payment page
-// }
 let selectedCabin = null;
 let selectedType = null;
 
@@ -63,7 +49,7 @@ document.querySelectorAll('.cabinR1:not(.occupied), .cabinR2:not(.occupied)').fo
 // Redirect to payment page
 document.getElementById('proceedBtn').addEventListener('click', () => {
   if (selectedCabin && selectedType) {
-    window.location.href = 'payment.html';
+    alert("this feature is not yet available ,stay tuned .");
   }
 });
 
