@@ -49,7 +49,7 @@ document.querySelectorAll('.cabinR1:not(.occupied), .cabinR2:not(.occupied)').fo
 // Redirect to payment page
 document.getElementById('proceedBtn').addEventListener('click', () => {
   if (selectedCabin && selectedType) {
-    alert("this feature is not yet available ,stay tuned .");
+    window.location.href = 'payment.html';
   }
 });
 
