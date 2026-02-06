@@ -12,6 +12,7 @@
 .font
 {
   font-family: 'ubuntu';
+  color: #111827;
 }
 li {
   font-family: 'ubuntu';
@@ -168,11 +169,11 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #111827;
+  background: #ffffff;
   padding: 15px;
-  border: 1px solid #334155;
+  border: 1px solid #e0e0e0;
   border-radius: 10px;
-  box-shadow: inset 0 0 0 1px rgba(51, 65, 85, 0.8);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
 }
 .row1 {
   display: flex;
@@ -319,5 +320,5 @@ li .selected{
  }
 
 .legends small {
-  color: #cbd5e1;
+  color: #334155;
 }
